@@ -18,7 +18,12 @@ body {
     text-align: center;
 
 }
-img {
-    size: 16px;
+.unitario img {
+    width: 16px;
 
+}
+
+.unitario {
+    border-radius: 5px;
+    background-color: azure;
 }
