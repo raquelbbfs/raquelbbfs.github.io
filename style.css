@@ -27,3 +27,7 @@ body {
     border-radius: 5px;
     background-color: azure;
 }
+
+.container {
+    background-color: lightblue;
+}
