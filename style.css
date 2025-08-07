@@ -1,3 +1,15 @@
-.preco{
-    
+.nome { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: medium;
+    text-align: center;
+
+}
+
+.preco {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+    font-size: small;
+    text-align: center;
+
 }
