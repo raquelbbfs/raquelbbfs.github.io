@@ -1,32 +1,52 @@
 body {
-                margin: 10;
-                font-family: Arial, Helvetica, sans-serif;
-                background-color: azure;
-            }
-header {
-                background-color: rgb(205, 245, 245);
-                color: black;
-                padding: 16px 32px;
-                text-align: center;
-            }   
-nav {
-                background-color: rgb(171, 233, 233);
-            }
+    margin: 0;
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-            nav ul {
-                margin: 0;
-                padding: 0;
-                display: flex;
-                list-style: none;
-            }
-            nav ul li a {
-                display: block;
-                padding: 16px 24px;
-                color: white;
-                text-decoration: none;
-                font-size: 16px;
-            }
-            nav ul li a:hover {
-            background-color: rgb(80, 117, 117);
+h2 {
+    text-align: center;
+    margin: 20px 0 10px;
+}
 
-           }
+.container {
+    background-color: lightblue;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.grupo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.unitario {
+    background-color: azure;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+.unitario img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.nome { 
+    color: black;
+    font-size: medium;
+    margin-top: 5px;
+}
+
+.preco {
+    color: green;
+    font-size: small;
+}
