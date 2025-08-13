@@ -1,34 +1,125 @@
 body {
-    margin: 5;
-    background-color: aliceblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 230, 209);
 }
-.nome { 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-    font-size: medium;
+
+.container-encarte {
+    width: 80%;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+.cabecalho {
+    background-color: rgb(247, 189, 81);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: relative;
+}
+
+.titulo-principal {
+    color: #fff;
     text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    line-height: 1;
+    -webkit-text-stroke: 1px rgb(80, 19, 19);
+}
+
+.container-mulher {
+    width: 400px;
+}
+
+.container-mulher img {
+    width: 300px;
+}
+
+.caixa-logo {
+    width: 150px;
+    height: 90px;
+    background-color: #fff;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2em;
+    color: gray;
+    font-weight: bold;
+}
+
+.conteudo {
+    padding: 20px;
+    padding-top: 80px;
+
+}
+
+.secao-destaques {
+    display: flex;
+    gap: 20px;
+}
+
+.produto-grande {
+    flex: 1;
+    background-color: rgb(247, 189, 81);
+    color: #fff;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+
+}
+
+.grade-produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.linha-produtos {
+    display: flex;
+    gap: 15px;
+}
+
+.produto-pequeno {
+    background-color: white;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+    
+}
+
+.produto-pequeno img {
+    max-width: 300px;
+    height: auto;
+}
+
+.nome-grande {
+    color: #fff;
+    text-align: center;
+    
+}
+
+.preco-grande {
+    color: green;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 
 }
 
 .preco {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: green;
-    font-size: small;
+    font-size: 50px;
+}
+
+.rodape {
+    padding: 5px;
+    background-color: rgb(247, 189, 81);
     text-align: center;
-
-}
-.unitario img {
-    width: 100px;
-
-}
-
-.unitario {
-    border-radius: 5px;
-    background-color: azure;
-    width: 25%;
-}
-
-.container {
-    background-color: lightblue;
+    font-weight: bold;
 }
