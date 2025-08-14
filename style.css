@@ -62,10 +62,16 @@ body {
     gap: 20px;
 }
 
+.secao-destaques img {
+    width: 300px;
+    height: auto;
+
+}
+
 .produto-grande {
     flex: 1;
-    background-color: rgb(247, 189, 81);
-    color: #fff;
+    background-color: rgb(248, 246, 242);
+    color: black;
     align-items: center;
     padding: 10px;
     display: flex;
@@ -94,26 +100,45 @@ body {
 }
 
 .produto-pequeno img {
-    max-width: 300px;
+    width: 200px;
     height: auto;
 }
 
 .nome-grande {
-    color: #fff;
+    color: black;
     text-align: center;
+    font-weight: bold;
+    font-size: 50px;
     
 }
 
 .preco-grande {
-    color: green;
+    color: white;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
 
 }
 
+.nome {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.preco-anterior {
+    border: 1px solid gray;
+    background-color: rgb(99, 8, 8);
+    padding: 5px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
 .preco {
-    color: green;
+    border: 1px solid gray;
+    background-color: red;
+    padding: 10px;
+    color: white;
     font-size: 50px;
 }
 
@@ -122,4 +147,10 @@ body {
     background-color: rgb(247, 189, 81);
     text-align: center;
     font-weight: bold;
+}
+
+.preco-produtos {
+    display: flex;
+    flex-direction: column;
+
 }
